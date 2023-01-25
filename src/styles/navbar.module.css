@@ -1,0 +1,47 @@
+#container{
+  height: 6rem;
+  background-color: var(--white-color);
+}
+
+#nav_content{
+  gap: 1.5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.link {
+  color: var(--text-color);
+  margin: 0 auto;
+  width: 5rem;
+}
+
+
+.link:hover{
+  color: var(--main-color);
+  font-weight: 700;
+}
+
+.button_main {
+  background-image: url(../images/menu.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  scale: 0.6;
+  color: var(--main-color);
+}
+
+.button_main:focus {
+  box-shadow: none !important;
+}
+
+.button_main:hover {
+  filter: brightness(1.5);
+}
+
+.button_close:focus:before {
+  box-shadow: none !important;
+  border: none !important;
+}
+
+.logo_gales {
+  padding-left: 0.25rem;
+}

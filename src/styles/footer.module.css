@@ -1,0 +1,92 @@
+#footer {
+  background-color: var(--second-color);
+  color: var(--light-color)
+}
+
+h6 {
+  color: var(--main-color);
+}
+
+.up{
+  color: var(--main-color);
+}
+
+.up:hover{
+  color: var(--main-color);
+  filter: brightness(1.5);
+  font-size: 1.1rem;
+}
+
+p {
+  color: var(--light-color);
+  font-weight: 300
+}
+
+.logo_footer{
+  width: 10rem;
+}
+
+.logo_copy{
+  height: 1.3rem;
+  margin-left: 0.25rem;
+}
+
+#heart{
+  color: var(--main-color);
+}
+
+#heart:hover{
+  filter: brightness(1.5);
+}
+
+#c_mobile{
+  display: none;
+
+}
+
+#fb, #ig, #yt {
+  font-size: 1.5rem;
+  color: var(--light-color)
+}
+
+#fb:hover{
+  color: #1877f2
+}
+
+#ig:hover {
+  background: #f09433; 
+  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+  background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  background-clip: text;
+  color: transparent;  
+}
+
+#yt:hover{
+  color: #d3101c;
+}
+
+#c_desktop, #c_mobile{
+  background-color: rgba(0, 0, 0, 0.25);
+  color: var(--light-color);
+}
+
+#copy {
+  margin: 0 !important;
+}
+
+@media (max-width: 1080px) {
+  #c_mobile{
+    display: block;
+  }
+
+  #c_desktop {
+    display: none;
+  }
+
+  .social_icon {
+    display: block;
+    margin: 0 auto !important;
+    padding: 0 auto !important;
+  }
+}

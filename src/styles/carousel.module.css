@@ -1,0 +1,14 @@
+
+#item {
+  height: 75vh;
+}
+
+#img {
+  filter: brightness(0.8);
+}
+
+@media (max-width: 960px) {
+  #item {
+    height: auto;
+  }
+}
