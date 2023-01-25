@@ -1,11 +1,11 @@
-import React, { Suspense } from 'react';
-import {Header, Carousel} from  '../components';
+import React from 'react';
+import {Cover, Carousel, Hero} from  '../components';
 
 export const Home = () => {
   return (
     <>
-    <Suspense fallback={<span>Loading...</span>}></Suspense>
-      <Header />
+      <Cover />
+      <Hero />
       <Carousel />
     </>
   )

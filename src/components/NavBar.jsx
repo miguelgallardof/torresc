@@ -17,7 +17,7 @@ export const NavBar = () => {
       {['md'].map((expand) => (
         <Navbar key={expand} expand={expand} className="mb-0" sticky='top' id={s.container}>
           <Container>
-            <Navbar.Brand href="/"><img src="https://res.cloudinary.com/dbvh03usi/image/upload/v1674259433/Torres%20Construction/logo1.svg" alt="" width="150"/></Navbar.Brand>
+            <Navbar.Brand href="/"><img src="https://res.cloudinary.com/dbvh03usi/image/upload/v1674635160/Torres%20Construction/logo1.svg" alt="" width="150"/></Navbar.Brand>
             <Navbar.Toggle  className={s.button_main} aria-controls={`offcanvasNavbar-expand-${expand}`}/>
             <Navbar.Offcanvas
               id={`offcanvasNavbar-expand-${expand}`}

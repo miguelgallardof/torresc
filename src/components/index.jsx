@@ -1,4 +1,5 @@
 export * from "./Carousel";
-export * from "./Header";
+export * from "./Cover";
+export * from "./Hero";
 export * from "./NavBar";
 export * from "./Footer";
