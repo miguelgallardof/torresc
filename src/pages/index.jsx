@@ -1,3 +1,4 @@
-export * from "./Home";
-export * from "./Galery";
-export * from "./Services";
+export * from './Contact'
+export * from './Home';
+export * from './Gallery';
+export * from './Services';

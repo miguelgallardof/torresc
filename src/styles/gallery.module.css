@@ -1,0 +1,33 @@
+#title {
+  font-weight: 300 !important;
+  color: var(--title-color);
+  margin: 3rem;
+}
+
+#link{
+  font-size: 1rem;
+  font-weight: 300;
+  color: var(--text-color);
+  background-color: var(--white-color);
+  text-align: center;
+}
+
+#link:hover{
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--main-color);
+}
+
+#card {
+  border:0;
+  border-radius: none !important;
+}
+#card:hover {
+  border: 1rem solid white;
+}
+
+@media (max-width: 1080px) {
+  .card {
+    width: 50%;
+  }
+}

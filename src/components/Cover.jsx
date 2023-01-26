@@ -6,7 +6,7 @@ export const Cover = () => {
   return (
     <div
       className="p-5 text-center bg-image" id={s.image}>
-      <div className="mask" style={{backgroundColor: "hsla(0, 0%, 0%, 0.6)",}}>
+      <div className="mask" style={{backgroundColor: "hsla(0, 0%, 0%, 0.5)",}}>
         <div className="d-flex justify-content-center align-items-center h-100" id={s.text}>
           <div className="text-white">
             <h1 className="mb-3">RENOVATE YOUR SPACE</h1><br></br>

@@ -14,7 +14,7 @@ import l from '../styles/link.module.css'
 export const NavBar = () => {
   return (
     <>
-      {['md'].map((expand) => (
+      {['lg'].map((expand) => (
         <Navbar key={expand} expand={expand} className="mb-0" sticky='top' id={s.container}>
           <Container>
             <Navbar.Brand href="/"><img src="https://res.cloudinary.com/dbvh03usi/image/upload/v1674635160/Torres%20Construction/logo1.svg" alt="" width="150"/></Navbar.Brand>
@@ -37,8 +37,11 @@ export const NavBar = () => {
                   <Link to={"/services"}>
                   <button className={l.button} style={{color:'var(--text-color)', width: "5rem"}}>Services</button>
                   </Link>
-                  <Link to={"/galery"}>
-                  <button className={l.button} style={{color:'var(--text-color)', width: "5rem"}}>Galery</button>
+                  <Link to={"/gallery"}>
+                  <button className={l.button} style={{color:'var(--text-color)', width: "5rem"}}>Gallery</button>
+                  </Link>
+                  <Link to={"/contact"}>
+                  <button className={l.button} style={{color:'var(--text-color)', width: "5rem"}}>Contact</button>
                   </Link>
                   <button className={b.button1} href="tel:+51997183462"> Call us </button>
                   

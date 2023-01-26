@@ -1,11 +1,11 @@
 import React, { Suspense } from "react";
 import { Routes, Route } from "react-router-dom";
 import { NavBar, Footer } from "./components";
-import { Home, Services, Galery } from "./pages";
+import { Home, Services, Gallery, Contact } from "./pages";
 import "./App.css";
 
 /* export default function App() { */
-export const App = () => {
+const App = () => {
   return (
     <div className="App">
       <Suspense fallback={<span>Loading...</span>}></Suspense>
@@ -14,7 +14,8 @@ export const App = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/services" element={<Services />} />
-          <Route path="/galery" element={<Galery />} />
+          <Route path="/gallery" element={<Gallery />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
         <Footer />
       </section>

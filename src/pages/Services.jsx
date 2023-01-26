@@ -2,6 +2,6 @@ import React from 'react';
 
 export const Services = () => {
   return (
-    <h1>SOY SERVICES</h1>
+    <h1><br></br>Aqui deben ir los servicios detallados</h1>
   )
 }

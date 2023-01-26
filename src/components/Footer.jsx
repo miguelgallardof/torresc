@@ -20,8 +20,8 @@ export const Footer = () => {
           <a href="https://instagram.com" className="me-4 text-reset">
             <i className="bi bi-instagram" id={s.ig}></i>
           </a>
-          <a href="https_//youtube.com" className="me-0 text-reset">
-            <i className="bi bi-youtube" id={s.yt}></i>
+          <a href="https_//linkedin.com" className="me-0 text-reset">
+            <i className="bi bi-linkedin" id={s.yt}></i>
           </a>
         </div>
       </section>
@@ -58,13 +58,13 @@ export const Footer = () => {
                 Useful links
               </h6>
               <p>
-                <a href="#!" className="text-reset">About</a>
+                <a href="#!" className="text-reset">Home</a>
               </p>
               <p>
                 <a href="#!" className="text-reset">Services</a>
               </p>
               <p>
-                <a href="#!" className="text-reset">Galery</a>
+                <a href="#!" className="text-reset">Gallery</a>
               </p>
               <p>
                 <a href="#!" className="text-reset">Contact</a>

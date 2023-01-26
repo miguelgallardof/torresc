@@ -1,0 +1,30 @@
+#container_buttons {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem;
+}
+#title {
+  font-weight: 300 !important;
+  color: var(--title-color);
+  margin: 4rem;
+}
+
+#text {
+  text-align: left;
+  color: var(--text-color);
+}
+
+.container_buttom{
+  gap: 1.5rem;
+  padding-bottom: 2rem;
+}
+
+.social {
+  color: var(--text-color);
+}
+
+.social:hover {
+  color: var(--second-color);
+}
+
