@@ -19,7 +19,7 @@ export const Hero = () => {
             id={s.title}
           >
             We are your best choice</h2>
-          <p id={s.text}>Garcia’s Renovation is a company dedicated to the construction and remodeling of houses, shopping centers, offices, buildings and others, with a totally customer-oriented management system, made up of a multifunctional work team with extensive experience in the development of works execution and carrying.</p>
+          <p id={s.text}>Torres Construction is a company dedicated to the construction and remodeling of houses, shopping centers, offices, buildings and others, with a totally customer-oriented management system, made up of a multifunctional work team with extensive experience in the development of works execution and carrying.</p>
 
           <p id={s.text}>Out reforms of all kinds, outlined with our values of being transparent, serious, committed and responsible, demanding maximum affectivity from each of our staff, in order to have the quality endorsed by our years of experience, becoming a benchmark for the development of works projects successfully.
           </p>
