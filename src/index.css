@@ -4,12 +4,12 @@
 
 ::-webkit-scrollbar {
   background-color: var(--second-color);
-  width: 0.5rem;
+  width: 0.2rem;
 }
 
 ::-webkit-scrollbar-thumb {
   background-color: var(--main-color);
-  border-radius: 1rem;
+  /* border-radius: 1rem; */
 }
 
 ::-webkit-scrollbar-thumb:hover {

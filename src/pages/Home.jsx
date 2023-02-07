@@ -6,8 +6,8 @@ export const Home = () => {
     <>
       <Cover />
       <Hero />
-      <Carousel />
       <Portfolio />
+      <Carousel />
     </>
   )
 }

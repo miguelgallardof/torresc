@@ -12,7 +12,7 @@ export const Portfolio = () => {
     <section class="py-20">
       <div class= {`container ${s.container}`}>
       <h2 className="display-5 fw-bold lh-1 mb-3" id={s.title}>
-      We love our</h2>
+      We love our job</h2>
         <p id={s.text}>You can review the photos of our work, as well as being able to filter it by categories.</p>
         <div className="d-grid gap-2 d-md-flex justify-content-md-start">
           <div className='container' id={s.container_buttons}>

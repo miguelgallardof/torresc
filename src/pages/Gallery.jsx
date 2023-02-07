@@ -89,9 +89,10 @@ export const Gallery = () => {
           {items.map((elem) => {
             const { id, name, image } = elem;
               return (
-                <div className={`col-lg-3 col-md-6 col-sm-6${s.conteiner_card}`} id={id}>
+                <div className={`col-lg-3 col-md-6 col-sm-3${s.conteiner_card}`}
+                id={id}>
                   <div className="card mb-4">
-                    <img className="img-fluid" src={image} alt={name} id= {s.card}/>
+                    <img className="img-fluid" key={id} src={image} alt={name} id= {s.card}/>
                   </div>
                 </div>
               );
