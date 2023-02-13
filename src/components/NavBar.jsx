@@ -6,7 +6,7 @@ import Offcanvas from 'react-bootstrap/Offcanvas';
 // import Button from 'react-bootstrap/Button';
 // import NavDropdown from 'react-bootstrap/NavDropdown';
 /* import logo from '../images/favicon.svg' */
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import s from '../styles/navbar.module.css'
 import b from '../styles/button.module.css'
 import l from '../styles/link.module.css'
@@ -31,18 +31,22 @@ export const NavBar = () => {
               </Offcanvas.Header>
               <Offcanvas.Body>
                 <Nav className="justify-content-end flex-grow-1 pe-3" id={s.nav_content}>
-                  <Link to={"/"}>
-                    <button className={l.button} style={{color:'var(--text-color)', width: "5rem"}}>Home</button>
-                  </Link>
-                  <Link to={"/services"}>
-                  <button className={l.button} style={{color:'var(--text-color)', width: "5rem"}}>Services</button>
-                  </Link>
-                  <Link to={"/gallery"}>
-                  <button className={l.button} style={{color:'var(--text-color)', width: "5rem"}}>Gallery</button>
-                  </Link>
-                  <Link to={"/contact"}>
-                  <button className={l.button} style={{color:'var(--text-color)', width: "5rem"}}>Contact</button>
-                  </Link>
+                  <NavLink to={"/"} className={l.button} style={{color:'var(--text-color)', width: "5rem"}} activeClassName='active'>
+                    Home
+                  </NavLink>
+                  <NavLink to={"/about"} className={l.button} style={{color:'var(--text-color)', width: "5rem"}} activeClassName='active'>
+                    About
+                  </NavLink>
+                  <NavLink to={"/services"} class='nav' className={l.button} style={{color:'var(--text-color)', width: "5rem"}} activeClassName='active'>
+                  Services
+                  </NavLink>
+                  <NavLink to={"/gallery"} className={l.button} style={{color:'var(--text-color)', width: "5rem"}} activeClassName = 'active'>
+                  Gallery
+                  </NavLink>
+                  <NavLink to={"/contact"} className={l.button}  
+                  style={{color:'var(--text-color)', width: "5rem"}} activeClassName='active'>
+                  Contact
+                  </NavLink>
                   <button className={b.button1} href="tel:+51997183462"> Call us </button>
                   
                   {/* <NavDropdown

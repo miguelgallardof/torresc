@@ -65,9 +65,9 @@ export const Gallery = () => {
             className={active ? "nav-link" : "nav-link"}
             id= {s.link}
             href="javascrip:0;"
-            onClick={() => filterItem("decks")}
+            onClick={() => filterItem("carpentry")}
           >
-            Decks
+            Carpentry
           </a>
         </li>
         <li className="nav-item">

@@ -1,7 +1,7 @@
 import React, { Suspense } from "react";
 import { Routes, Route } from "react-router-dom";
 import { NavBar, Footer } from "./components";
-import { Home, Services, Gallery, Contact } from "./pages";
+import { Home, About, Services, Gallery, Contact, Error404 } from "./pages";
 import "./App.css";
 
 /* export default function App() { */
@@ -13,9 +13,11 @@ const App = () => {
         <NavBar />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
           <Route path="/services" element={<Services />} />
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="*" element={<Error404 />} />
         </Routes>
         <Footer />
       </section>

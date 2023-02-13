@@ -37,6 +37,16 @@
   color: #61dafb;
 }
 
+.active {
+  font-weight: 400;
+  color: var(--main-color) !important;
+}
+
+.nav {
+  color:'var(--text-color)' !important;
+  width: "5rem"
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

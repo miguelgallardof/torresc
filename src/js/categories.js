@@ -57,7 +57,7 @@ const Categories = [
   {
     id: 10,
     image:
-      "https://res.cloudinary.com/dbvh03usi/image/upload/v1674763997/Torres%20Construction/Fotos/10_vthjsd.jpg",
+      "https://res.cloudinary.com/miguelgallardof/image/upload/v1674763997/Torres%20Construction/Fotos/10_vthjsd.jpg",
     category: "tiles",
   },
   {
@@ -70,7 +70,7 @@ const Categories = [
     id: 12,
     image:
       "https://res.cloudinary.com/dbvh03usi/image/upload/v1674764007/Torres%20Construction/Fotos/12_lwlwrs.jpg",
-    category: "drywall",
+    category: "carpentry",
   },
   {
     id: 13,
@@ -142,7 +142,7 @@ const Categories = [
     id: 24,
     image:
       "https://res.cloudinary.com/miguelgallardof/image/upload/v1675583255/Torres%20Construction/Fotos/24_okyffo.jpg",
-    category: "renovations",
+    category: "carpentry",
   },
   {
     id: 25,
@@ -166,13 +166,13 @@ const Categories = [
     id: 28,
     image:
       "https://res.cloudinary.com/miguelgallardof/image/upload/v1675583255/Torres%20Construction/Fotos/28_fwa1dh.jpg",
-    category: "drywall",
+    category: "carpentry",
   },
   {
     id: 29,
     image:
       "https://res.cloudinary.com/miguelgallardof/image/upload/v1675654485/Torres%20Construction/Fotos/29_uhh6yr.jpg",
-    category: "decks",
+    category: "carpentry",
   },
   {
     id: 30,
@@ -184,7 +184,7 @@ const Categories = [
     id: 31,
     image:
       "https://res.cloudinary.com/miguelgallardof/image/upload/v1675583256/Torres%20Construction/Fotos/31_qakd8c.jpg",
-    category: "decks",
+    category: "carpentry",
   },
   {
     id: 32,
@@ -274,7 +274,7 @@ const Categories = [
     id: 46,
     image:
       "https://res.cloudinary.com/miguelgallardof/image/upload/v1675583253/Torres%20Construction/Fotos/46_jxrexh.jpg",
-    category: "decks",
+    category: "carpentry",
   },
 
   {
@@ -287,7 +287,7 @@ const Categories = [
     id: 48,
     image:
       "https://res.cloudinary.com/miguelgallardof/image/upload/v1675583253/Torres%20Construction/Fotos/48_ckwe2b.jpg",
-    category: "renovations",
+    category: "carpentry",
   },
   {
     id: 49,

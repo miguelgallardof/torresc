@@ -17,9 +17,8 @@ h6 {
   font-size: 1.1rem;
 }
 
-p {
-  color: var(--light-color);
-  font-weight: 300
+.text-light {
+  color: var(--light-color)
 }
 
 .logo_footer{
@@ -54,12 +53,13 @@ p {
 }
 
 #ig:hover {
-  background: #f09433; 
+  color: transparent;
   background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
   background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
   background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
   background-clip: text;
-  color: transparent;  
 }
 
 #yt:hover{
