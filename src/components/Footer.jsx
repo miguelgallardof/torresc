@@ -15,10 +15,10 @@ export const Footer = () => {
               <p className = 'text-light'>Get connected with us on social networks:</p>
             </div>
             <div className={s.social_icon}>
-              <a href='https://facebook.com' className='me-4 text-reset'>
+              <a href='https://facebook.com/torresconsctruction' rel='noreferrer' target='_blank' className='me-4 text-reset'>
                 <i className='bi bi-facebook' id={s.fb}></i>
               </a>
-              <a href='https://instagram.com' className='me-4 text-reset'>
+              <a href='https://instagram.com/torres_construction10/' rel='noreferrer' target='_blank' className='me-4 text-reset'>
                 <i className='bi bi-instagram' id={s.ig}></i>
               </a>
               <a href='https_//linkedin.com' className='me-0 text-reset'>
@@ -32,7 +32,7 @@ export const Footer = () => {
               <div className='row mt-3'>
                 <div className='col-md-3 col-lg-4 col-xl-3 mx-auto mb-4'>
                   <h6 className='text-uppercase fw-bold mb-4'>
-                    <img className={s.logo_footer} src='https://res.cloudinary.com/dbvh03usi/image/upload/v1674260416/Torres%20Construction/logo2.svg' alt='logo' />
+                    <img className={s.logo_footer} src='https://res.cloudinary.com/miguelgallardof/image/upload/v1674260416/Torres%20Construction/logo2.svg' alt='logo' />
                   </h6>
                   <p className = 'text-light'>
                     The logo and brand are the property of <b>Torres Home Construction SLL</b>. All rights reserved.
@@ -88,12 +88,12 @@ export const Footer = () => {
           <section>
             <div className='text-center p-4' id={s.c_desktop}>
               <p className='text-light' id={s.copy}>
-                &copy; 2022 - {year} | <span className='fw-bold'>TORRES CONSTRUCTION</span>. Developed with <i className='bi bi-heart-fill' id={s.heart}></i> by <img className={s.logo_copy} src='https://res.cloudinary.com/dbvh03usi/image/upload/v1674340653/Gales/logo2.svg' alt='logo' />
+                &copy; 2022 - {year} | <span className='fw-bold'>TORRES CONSTRUCTION</span>. Developed with <i className='bi bi-heart-fill' id={s.heart}></i> by <a href='https://gales.pe' rel='noreferrer' target='_blank'><img className={s.logo_copy} src='https://res.cloudinary.com/miguelgallardof/image/upload/v1674340653/Gales/logo2.svg' alt='gales.pe' /></a>
               </p>
             </div>
             <div className='text-center p-4' id={s.c_mobile}>
               <p className='text-light' id={s.copy}>
-                &copy; 2022 - {year} | <span className='fw-bold'>TORRES CONSTRUCTION</span>. <br></br> Developed with <i className='bi bi-heart-fill' id={s.heart}></i> by <img className={s.logo_copy} src='https://res.cloudinary.com/dbvh03usi/image/upload/v1674340653/Gales/logo2.svg' alt='logo' />
+                &copy; 2022 - {year} | <span className='fw-bold'>TORRES CONSTRUCTION</span>. <br></br> Developed with <i className='bi bi-heart-fill' id={s.heart}></i> by <a href='https://gales.pe' rel='noreferrer' target='_blank'><img className={s.logo_copy} src='https://res.cloudinary.com/miguelgallardof/image/upload/v1674340653/Gales/logo2.svg' alt='gales.pe' /></a>
               </p>
             </div>
           </section>

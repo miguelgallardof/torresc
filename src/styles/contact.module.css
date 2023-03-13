@@ -15,7 +15,11 @@
   color: var(--text-color);
 }
 
-.container_buttom{
+.horary {
+  padding-bottom: 2rem;
+}
+
+.container_button{
   gap: 1.5rem;
   padding-bottom: 2rem;
 }
@@ -27,4 +31,3 @@
 .social:hover {
   color: var(--second-color);
 }
-

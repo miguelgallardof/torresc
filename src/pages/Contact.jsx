@@ -19,28 +19,34 @@ export const Contact = () => {
             id={s.title}
           >
             Have any question? Text me!</h2>
-          <p id={s.text}>Mon - Sat 8:00 - 20:00 CET</p>
-          <p id={s.text}>Phone: 704 968 8289</p>
-          <div className={`d-sm-flex mb-n4 ${s.container_buttom}`}>
-            <a className="d-flex align-items-center text-decoration-none me-sm-14 mb-4" href="/">
+          <div className={s.horary}>
+            <p id={s.text}>Mon - Sat 8:00 - 20:00 CET</p>
+            <p id={s.text}>Phone: 704 968 8289</p>
+          </div>
+          <div className={`d-sm-flex mb-n4 ${s.container_button}`}>
+            <a className="d-flex align-items-center text-decoration-none me-sm-14 mb-4" href='https://wa.me/17049688289' rel='noreferrer' target='_blank'>
               <img src="https://img.icons8.com/fluency/35/null/whatsapp.png" alt='WhatsApp'/>
-              <a className={s.social} href="/">WhatsApp</a>
+              <p>WhatsApp</p>
             </a>
-            <a className="d-flex align-items-center text-decoration-none  mb-4" href="/">
+            <a className="d-flex align-items-center text-decoration-none  mb-4" href='https://m.me/torresconsctruction' rel='noreferrer' target='_blank'>
               <img src="https://img.icons8.com/fluency/30/null/facebook-messenger--v2.png" alt='Messenger'/>
-              <a className={s.social} href="/">Messenger</a>
+              <p>Messenger</p>
             </a>
           </div>
           <div className="d-grid gap-2 d-md-flex justify-content-md-start">
             <div className='container' id={s.container_buttons}>
             <div className={`d-flex flex-wrap align-items-center mb-n4 
-              ${s.container_buttom}`}>
-                <button className={b.button1} href="tel:+51997183462">
-                  Call us
-                </button>
-                <button className={b.button2} href="tel:+51997183462">
-                  Send a mail
-                </button>
+              ${s.container_button}`}>
+                <a href="tel:+17042775688">
+                  <button className={b.button1}>
+                    Call us
+                  </button>
+                </a>
+                <a href="mailto:info@torreshc.com">
+                  <button className={b.button2}>
+                    Send a mail
+                  </button>
+                </a>
               </div>
             </div>
           </div>

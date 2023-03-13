@@ -12,7 +12,8 @@ export const Cover = () => {
             <h1 className="mb-3">RENOVATE YOUR SPACE</h1><br></br>
             <h4 className="mb-3">At <b>Torres Construction</b> we help you with the renovation, <br></br>construction and remodeling of your home or office.</h4>
             <div>
-              <button className={b.button4}> CONTACT US </button><br></br>
+              <a href='https://wa.me/17049688289' rel='noreferrer' target='_blank'>
+                <button className={b.button4}> CONTACT US </button></a>
             </div>
             <div className="container_mouse">
               <span className={s.mouse_btn}>

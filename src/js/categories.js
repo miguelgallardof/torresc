@@ -2,7 +2,7 @@ const Categories = [
   {
     id: 1,
     image:
-      "https://res.cloudinary.com/dbvh03usi/image/upload/v1674763827/Torres%20Construction/Fotos/01_umqnpn.jpg",
+      "https://res.cloudinary.com/miguelgallardof/image/upload/v1674763827/Torres%20Construction/Fotos/01_umqnpn.jpg",
     category: "renovations",
   },
   {
@@ -20,26 +20,26 @@ const Categories = [
   {
     id: 4,
     image:
-      "https://res.cloudinary.com/dbvh03usi/image/upload/v1674763844/Torres%20Construction/Fotos/04_jexgjw.jpg",
+      "https://res.cloudinary.com/miguelgallardof/image/upload/v1674763844/Torres%20Construction/Fotos/04_jexgjw.jpg",
     category: "renovations",
   },
 
   {
     id: 5,
     image:
-      "https://res.cloudinary.com/dbvh03usi/image/upload/v1674763844/Torres%20Construction/Fotos/05_g5ftvj.jpg",
+      "https://res.cloudinary.com/miguelgallardof/image/upload/v1674763844/Torres%20Construction/Fotos/05_g5ftvj.jpg",
     category: "renovations",
   },
   {
     id: 6,
     image:
-      "https://res.cloudinary.com/dbvh03usi/image/upload/v1674763974/Torres%20Construction/Fotos/06_iixe80.jpg",
+      "https://res.cloudinary.com/miguelgallardof/image/upload/v1674763974/Torres%20Construction/Fotos/06_iixe80.jpg",
     category: "renovations",
   },
   {
     id: 7,
     image:
-      "https://res.cloudinary.com/dbvh03usi/image/upload/v1674763980/Torres%20Construction/Fotos/07_gunebo.jpg",
+      "https://res.cloudinary.com/miguelgallardof/image/upload/v1674763980/Torres%20Construction/Fotos/07_gunebo.jpg",
     category: "renovations",
   },
   {
@@ -51,7 +51,7 @@ const Categories = [
   {
     id: 9,
     image:
-      "https://res.cloudinary.com/dbvh03usi/image/upload/v1674763991/Torres%20Construction/Fotos/09_w85tj3.jpg",
+      "https://res.cloudinary.com/miguelgallardof/image/upload/v1674763991/Torres%20Construction/Fotos/09_w85tj3.jpg",
     category: "drywall",
   },
   {
@@ -69,19 +69,19 @@ const Categories = [
   {
     id: 12,
     image:
-      "https://res.cloudinary.com/dbvh03usi/image/upload/v1674764007/Torres%20Construction/Fotos/12_lwlwrs.jpg",
+      "https://res.cloudinary.com/miguelgallardof/image/upload/v1674764007/Torres%20Construction/Fotos/12_lwlwrs.jpg",
     category: "carpentry",
   },
   {
     id: 13,
     image:
-      "https://res.cloudinary.com/dbvh03usi/image/upload/v1674764013/Torres%20Construction/Fotos/13_o73yao.jpg",
+      "https://res.cloudinary.com/miguelgallardof/image/upload/v1674764013/Torres%20Construction/Fotos/13_o73yao.jpg",
     category: "painting",
   },
   {
     id: 14,
     image:
-      "https://res.cloudinary.com/dbvh03usi/image/upload/v1674764017/Torres%20Construction/Fotos/14_gwe7il.jpg",
+      "https://res.cloudinary.com/miguelgallardof/image/upload/v1674764017/Torres%20Construction/Fotos/14_gwe7il.jpg",
     category: "renovations",
   },
   {
@@ -93,19 +93,19 @@ const Categories = [
   {
     id: 16,
     image:
-      "https://res.cloudinary.com/dbvh03usi/image/upload/v1674764026/Torres%20Construction/Fotos/16_pwrr7o.jpg",
+      "https://res.cloudinary.com/miguelgallardof/image/upload/v1674764026/Torres%20Construction/Fotos/16_pwrr7o.jpg",
     category: "renovations",
   },
   {
     id: 17,
     image:
-      "https://res.cloudinary.com/dbvh03usi/image/upload/v1674764028/Torres%20Construction/Fotos/17_e3y6w7.jpg",
+      "https://res.cloudinary.com/miguelgallardof/image/upload/v1674764028/Torres%20Construction/Fotos/17_e3y6w7.jpg",
     category: "drywall",
   },
   {
     id: 18,
     image:
-      "https://res.cloudinary.com/dbvh03usi/image/upload/v1674764033/Torres%20Construction/Fotos/18_i06alx.jpg",
+      "https://res.cloudinary.com/miguelgallardof/image/upload/v1674764033/Torres%20Construction/Fotos/18_i06alx.jpg",
     category: "renovations",
   },
   {
@@ -322,7 +322,7 @@ const Categories = [
   {
     id: 54,
     image:
-      "https://res.cloudinary.com/miguelgallardof/image/upload/v1675583254/Torres%20Construction/Fotos/54_hiomyi.jpg",
+      "https://res.cloudinary.com/miguelgallardof/image/upload/v1676399379/Torres%20Construction/Fotos/54_upzxpz.jpg",
     category: "renovations",
   },
 ];
