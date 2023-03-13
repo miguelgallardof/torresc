@@ -17,7 +17,7 @@ export const NavBar = () => {
       {['lg'].map((expand) => (
         <Navbar key={expand} expand={expand} className="mb-0" sticky='top' id={s.container}>
           <Container>
-            <Navbar.Brand href="/"><img src="https://res.cloudinary.com/dbvh03usi/image/upload/v1674635160/Torres%20Construction/logo1.svg" alt="" width="150"/></Navbar.Brand>
+            <Navbar.Brand href="/"><img src="https://res.cloudinary.com/miguelgallardof/image/upload/v1674635160/Torres%20Construction/logo1.svg" alt="" width="150"/></Navbar.Brand>
             <Navbar.Toggle  className={s.button_main} aria-controls={`offcanvasNavbar-expand-${expand}`}/>
             <Navbar.Offcanvas
               id={`offcanvasNavbar-expand-${expand}`}
@@ -25,8 +25,8 @@ export const NavBar = () => {
               placement="end"
             >
               <Offcanvas.Header closeButton className={s.button_close}>
-                <p>
-                  Developed by <img className={s.logo_gales} src="https://res.cloudinary.com/dbvh03usi/image/upload/v1674575152/Gales/logo3.svg" height="20rem" padding="0" alt="logo" />
+                <p className={s.text_light}>
+                  Developed by <img className={s.logo_gales} src="https://res.cloudinary.com/miguelgallardof/image/upload/v1674575152/Gales/logo3.svg" height="20rem" padding="0" alt="logo" />
                 </p>
               </Offcanvas.Header>
               <Offcanvas.Body>
@@ -47,8 +47,9 @@ export const NavBar = () => {
                   style={{color:'var(--text-color)', width: "5rem"}} activeClassName='active'>
                   Contact
                   </NavLink>
-                  <button className={b.button1} href="tel:+51997183462"> Call us </button>
-                  
+                  <a href="tel:+17042775688">
+                    <button className={b.button1}> Call us </button>
+                  </a>
                   {/* <NavDropdown
                     title="Dropdown"
                     id={`offcanvasNavbarDropdown-expand-${expand}`}

@@ -42,6 +42,10 @@
   border: none !important;
 }
 
+.text_light {
+  color: var(--light-color) !important;
+}
+
 .logo_gales {
   padding-left: 0.25rem;
 }
