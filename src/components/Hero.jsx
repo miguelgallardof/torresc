@@ -2,6 +2,7 @@ import React from 'react';
 import image from '../images/hero.jpg'
 import s from '../styles/hero.module.css'
 import b from '../styles/button.module.css'
+import { Link } from 'react-router-dom';
 
 export const Hero = () => {
   return (
@@ -22,8 +23,12 @@ export const Hero = () => {
           <p id={s.text}>Torres Construction is a company dedicated to the construction and remodeling of houses, shopping centers, offices, buildings and others, with a totally customer-oriented management system, made up of a multifunctional work team with extensive experience in the development of works execution and carrying.</p>
           <div className="d-grid gap-2 d-md-flex justify-content-md-start">
             <div className='container' id={s.container_buttons}>
-              <button className={b.button1}> Read more </button>
-              <button className={b.button2}> Contact us </button>
+              <Link to = '/about'>
+                <button className={b.button1}> Read more </button>
+              </Link>
+              <Link to = '/contact'>
+                <button className={b.button2}> Contact us </button>
+              </Link>
             </div>
           </div>
         </div>

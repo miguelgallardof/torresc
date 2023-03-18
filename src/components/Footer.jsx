@@ -35,7 +35,7 @@ export const Footer = () => {
                     <img className={s.logo_footer} src='https://res.cloudinary.com/miguelgallardof/image/upload/v1674260416/Torres%20Construction/logo2.svg' alt='logo' />
                   </h6>
                   <p className = 'text-light'>
-                    The logo and brand are the property of <b>Torres Home Construction SLL</b>. All rights reserved.
+                    The logo and brand are the property of <b>Torres Home Construction LLC</b>. All rights reserved.
                   </p>
                   <a href='/'>
                     <button className={l.button}>
