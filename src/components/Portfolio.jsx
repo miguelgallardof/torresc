@@ -18,12 +18,12 @@ export const Portfolio = () => {
         <p id={s.text}>You can review the photos of our work, as well as being able to filter it by categories.</p>
         <div className="d-grid gap-2 d-md-flex justify-content-md-start">
           <div className='container' id={s.container_buttons}>
-          <Link to = '/gallery'>
-            <button className={b.button1}> See more </button>
-          </Link>
-          <Link to = '/contact'>
-            <button className={b.button2}> Contact us </button>
-          </Link>
+            <Link to = '/gallery'>
+              <button className={b.button1}> See more </button>
+            </Link>
+            <Link to = '/contact'>
+              <button className={b.button2}> Contact us </button>
+            </Link>
           </div>
         </div>
         <div class="row mb-n6">

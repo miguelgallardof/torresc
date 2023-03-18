@@ -166,7 +166,7 @@ const Categories = [
     id: 28,
     image:
       "https://res.cloudinary.com/miguelgallardof/image/upload/v1675583255/Torres%20Construction/Fotos/28_fwa1dh.jpg",
-    category: "carpentry",
+    category: "drywall",
   },
   {
     id: 29,

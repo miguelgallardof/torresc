@@ -18,7 +18,8 @@ export const Contact = () => {
             className="display-5 fw-bold lh-1 mb-3"
             id={s.title}
           >
-            Have any question? Text me!</h2>
+            Request a free consultation</h2>
+          <p>Thank you for your interest in contacting Torres Construction.</p>
           <div className={s.horary}>
             <p id={s.text}>Mon - Sat 8:00 - 20:00 CET</p>
             <p id={s.text}>Phone: 704 968 8289</p>
