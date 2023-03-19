@@ -57,8 +57,8 @@ const Categories = [
   {
     id: 10,
     image:
-      "https://res.cloudinary.com/miguelgallardof/image/upload/v1674763997/Torres%20Construction/Fotos/10_vthjsd.jpg",
-    category: "tiles",
+      "https://res.cloudinary.com/miguelgallardof/image/upload/v1679204352/Torres%20Construction/Fotos/10_jsymqn.jpg",
+    category: "renovations",
   },
   {
     id: 11,
@@ -177,7 +177,7 @@ const Categories = [
   {
     id: 30,
     image:
-      "https://res.cloudinary.com/miguelgallardof/image/upload/v1675583255/Torres%20Construction/Fotos/30_kdj6u0.jpg",
+      "https://res.cloudinary.com/miguelgallardof/image/upload/v1679204352/Torres%20Construction/Fotos/30_j8zfpp.jpg",
     category: "renovations",
   },
   {
@@ -293,36 +293,6 @@ const Categories = [
     id: 49,
     image:
       "https://res.cloudinary.com/miguelgallardof/image/upload/v1675583254/Torres%20Construction/Fotos/49_v2tguh.jpg",
-    category: "renovations",
-  },
-  {
-    id: 50,
-    image:
-      "https://res.cloudinary.com/miguelgallardof/image/upload/v1675583253/Torres%20Construction/Fotos/50_dd7ul4.jpg",
-    category: "renovations",
-  },
-  {
-    id: 51,
-    image:
-      "https://res.cloudinary.com/miguelgallardof/image/upload/v1675583254/Torres%20Construction/Fotos/51_mjmymw.jpg",
-    category: "renovations",
-  },
-  {
-    id: 52,
-    image:
-      "https://res.cloudinary.com/miguelgallardof/image/upload/v1675583253/Torres%20Construction/Fotos/52_uvii4f.jpg",
-    category: "renovations",
-  },
-  {
-    id: 53,
-    image:
-      "https://res.cloudinary.com/miguelgallardof/image/upload/v1675583254/Torres%20Construction/Fotos/53_fisjnk.jpg",
-    category: "renovations",
-  },
-  {
-    id: 54,
-    image:
-      "https://res.cloudinary.com/miguelgallardof/image/upload/v1676399379/Torres%20Construction/Fotos/54_upzxpz.jpg",
     category: "renovations",
   },
 ];
