@@ -1,11 +1,9 @@
+import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Offcanvas from 'react-bootstrap/Offcanvas';
-// import Form from 'react-bootstrap/Form';
-// import Button from 'react-bootstrap/Button';
-// import NavDropdown from 'react-bootstrap/NavDropdown';
-/* import logo from '../images/favicon.svg' */
+//import NavDropdown from 'react-bootstrap/NavDropdown';
 import { NavLink } from "react-router-dom";
 import s from '../styles/navbar.module.css'
 import b from '../styles/button.module.css'
@@ -24,7 +22,7 @@ export const NavBar = () => {
               aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
               placement="end"
             >
-              <Offcanvas.Header closeButton className={s.button_close}>
+              <Offcanvas.Header closeButton className={s.button_close}> 
                 <p className={s.text_light}>
                   Developed by <img className={s.logo_gales} src="https://res.cloudinary.com/miguelgallardof/image/upload/v1674575152/Gales/logo3.svg" height="20rem" padding="0" alt="logo" />
                 </p>
@@ -64,15 +62,6 @@ export const NavBar = () => {
                     </NavDropdown.Item>
                   </NavDropdown> */}
                 </Nav>
-                {/* <Form className="d-flex">
-                  <Form.Control
-                    type="search"
-                    placeholder="Search"
-                    className="me-2"
-                    aria-label="Search"
-                  />
-                  <Button variant="outline-success">Search</Button>
-                </Form> */}
               </Offcanvas.Body>
             </Navbar.Offcanvas>
           </Container>

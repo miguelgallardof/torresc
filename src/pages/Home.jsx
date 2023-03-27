@@ -1,5 +1,5 @@
 import React from 'react';
-import {Cover, Slider, Hero, Portfolio, /* Carousel */ } from  '../components';
+import {Cover, Slider, Hero, Portfolio, Carousel } from  '../components';
 
 export const Home = () => {
   return (
@@ -8,7 +8,7 @@ export const Home = () => {
       <Hero />
       <Portfolio />
       <Slider />
-      {/* <Carousel /> */}
+      <Carousel />
     </>
   )
 }

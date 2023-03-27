@@ -44,7 +44,7 @@ export const Slider = () => {
         ></button>
       </div>
 
-      <div className="carousel-inner">
+      <div className="carousel-inner" id={s.container}>
         <div className="carousel-item active" id={s.item}>
           <img src={slide01} className="d-block w-100" alt="slide01" id={s.img}/>
           <div className="carousel-caption d-none d-md-block">

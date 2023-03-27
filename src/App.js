@@ -2,6 +2,8 @@ import React, { Suspense } from "react";
 import { Routes, Route } from "react-router-dom";
 import { NavBar, Footer } from "./components";
 import { Home, About, Services, Gallery, Contact, Error404 } from "./pages";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import "./App.css";
 
 /* export default function App() { */
