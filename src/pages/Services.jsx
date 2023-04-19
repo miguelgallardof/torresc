@@ -8,13 +8,13 @@ import image5 from '../images/service5.jpg'
 
 export const Services = () => {
   return (
-    <div className="container col-xxl-8 px-4 py-5">
+    <div className={`container col-xxl-8 px-4 py-5 ${s.container}`}>
       <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
         <div className="col-lg-6"
         id ={s.content_image}>
           <img 
-            src={image1} className="d-block mx-lg-auto img-fluid animation slide-out-right"
-            alt="img" width="350" height="350" loading="lazy" id={s.image}/>
+            src={image1} className="d-block mx-lg-auto img-fluid animation slide-out-center"
+            alt="img" width="350" height="350" align="center" loading="lazy" id={s.image}/>
         </div>
         <div className="col-lg-6">
           <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="var(--main-color)" class="bi bi-files" viewBox="0 0 16 16">
@@ -25,7 +25,7 @@ export const Services = () => {
             id={s.title}
           >
             Drywall</h2>
-          <p id={s.text}>Torres Construction has the solution to correctly adapt any space in your home.<br></br><br></br>See more photos of our work here</p>
+          <p id={s.text}>Torres Construction has the solution to correctly adapt any space in your home.{/* <br></br><br></br>See more photos of our work here */}</p>
         </div> 
       </div>
 
@@ -45,7 +45,7 @@ export const Services = () => {
             id={s.title}
           >
             Painting</h2>
-          <p id={s.text}>Torres Construction, we help you choose the right tone for your home and create a more welcoming environment. For both indoor and outdoor environments.<br></br><br></br>See more photos of our work here</p>
+          <p id={s.text}>Torres Construction, we help you choose the right tone for your home and create a more welcoming environment. For both indoor and outdoor environments.{/* <br></br><br></br>See more photos of our work here */}</p>
         </div> 
       </div>
 
@@ -65,7 +65,7 @@ export const Services = () => {
             id={s.title}
           >
             Flooring</h2>
-          <p id={s.text}>Torres Construction, makes your space a more pleasant place. If you are looking for professionals with excellence in their work, you are in the right place.<br></br><br></br>See more photos of our work here</p>
+          <p id={s.text}>Torres Construction, makes your space a more pleasant place. If you are looking for professionals with excellence in their work, you are in the right place.{/* <br></br><br></br>See more photos of our work here */}</p>
         </div> 
       </div>
 
@@ -77,15 +77,15 @@ export const Services = () => {
             alt="img" width="350" height="350" loading="lazy" id={s.image}/>
         </div>
         <div className="col-lg-6">
-          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="var(--main-color)" class="bi bi-hammer" viewBox="0 0 16 16">
-            <path d="M9.972 2.508a.5.5 0 0 0-.16-.556l-.178-.129a5.009 5.009 0 0 0-2.076-.783C6.215.862 4.504 1.229 2.84 3.133H1.786a.5.5 0 0 0-.354.147L.146 4.567a.5.5 0 0 0 0 .706l2.571 2.579a.5.5 0 0 0 .708 0l1.286-1.29a.5.5 0 0 0 .146-.353V5.57l8.387 8.873A.5.5 0 0 0 14 14.5l1.5-1.5a.5.5 0 0 0 .017-.689l-9.129-8.63c.747-.456 1.772-.839 3.112-.839a.5.5 0 0 0 .472-.334z"/>
-          </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="var(--main-color)" class="bi bi-bookshelf" viewBox="0 0 16 16">
+          <path d="M2.5 0a.5.5 0 0 1 .5.5V2h10V.5a.5.5 0 0 1 1 0v15a.5.5 0 0 1-1 0V15H3v.5a.5.5 0 0 1-1 0V.5a.5.5 0 0 1 .5-.5zM3 14h10v-3H3v3zm0-4h10V7H3v3zm0-4h10V3H3v3z"/>
+        </svg>
           <h2
             className="display-5 fw-bold lh-1 mb-3"
             id={s.title}
           >
             Carpentry</h2>
-          <p id={s.text}>Torres Construction, makes your home a unique and personalized space. Imagining it is not enough if you are not in the right hands, guaranteed good quality work.<br></br><br></br>See more photos of our work here</p>
+          <p id={s.text}>Torres Construction, makes your home a unique and personalized space. Imagining it is not enough if you are not in the right hands, guaranteed good quality work.{/* <br></br><br></br>See more photos of our work here */}</p>
         </div> 
       </div>
 
@@ -106,7 +106,7 @@ export const Services = () => {
             id={s.title}
           >
             Renovations</h2>
-          <p id={s.text}>Torres Construction, makes your home a unique and personalized space. Imagining it is not enough if you are not in the right hands, guaranteed good quality work.<br></br><br></br>See more photos of our work here</p>
+          <p id={s.text}>Torres Construction, makes your home a unique and personalized space. Imagining it is not enough if you are not in the right hands, guaranteed good quality work.{/* <br></br><br></br>See more photos of our work here */}</p>
         </div> 
       </div>
     </div>

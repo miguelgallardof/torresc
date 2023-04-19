@@ -1,14 +1,13 @@
 import React from 'react';
-import {Cover, Slider, Hero, Portfolio, Carousel } from  '../components';
+import {Cover, Slider, Hero, Carousel } from '../components';
 
 export const Home = () => {
   return (
     <>
       <Cover />
       <Hero />
-      <Portfolio />
-      <Slider />
       <Carousel />
+      <Slider />
     </>
   )
 }

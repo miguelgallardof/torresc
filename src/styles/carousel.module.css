@@ -1,15 +1,37 @@
-@media screen and (min-width: 576px) {
-    #carouselInner {
-        display: flex;
-    }
-
-    #carouselItem {
-        display: block;
-        margin-right: 0;
-        flex: 0 0 calc(100% / 3);
-    }    
+.main {
+  background-color: #f6f6f6;
+}
+.container {
+  padding: 1rem;
 }
 
-/* .imageWrapper {
-    display: flex
-} */
+.img {
+  padding: 2rem;
+}
+
+#container_buttons {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 4rem;
+}
+#title {
+  font-weight: 300 !important;
+  color: var(--title-color);
+  margin: 4rem;
+}
+
+#text {
+  text-align: center;
+  color: var(--text-color);
+}
+
+@media (max-width: 960px) {
+  .container {
+    padding: 1rem;
+  }
+
+  .img {
+    padding: 0.25rem;
+  }
+}

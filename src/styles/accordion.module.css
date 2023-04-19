@@ -1,0 +1,17 @@
+.header {
+  border: 1px;
+}
+
+.button {
+  color: var(--main-color);
+}
+
+
+.body {
+  text-align: justify;
+}
+
+.li::marker {
+  color: var(--main-color);
+  font-size: 150%;
+}
